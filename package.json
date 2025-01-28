@@ -1,0 +1,15 @@
+{
+  "name": "custom-fragment-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "build:watch": "vite build --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.24.2",
+    "vite": "^6.0.11",
+    "vite-plugin-singlefile": "^2.1.0"
+  }
+}

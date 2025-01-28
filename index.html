@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Reset fonts, padding, margins to default in Atlaskit -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@atlaskit/css-reset" />
+  <link rel="stylesheet" href="src/styles.css" />
+  <title>Script Master Fragment</title>
+</head>
+
+<body>
+  <div id="loader">Loading...</div>
+
+  <div id="app" style="display: none;">
+    <div id="content">
+      <div>Please select a Component to add to this issue:</div>
+      <div id="available-components"></div>
+      <div><button id="add-components-btn">Add selected Components</button></div>
+      <div>&nbsp;</div>
+      <a id="manage-components-btn" href="#">⇱ Manage Components</a>
+    </div>
+  </div>
+
+  <script type="module" src="/src/index.js"></script>
+</body>
+
+</html>
